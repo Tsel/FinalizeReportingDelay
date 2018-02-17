@@ -72,6 +72,9 @@ def getuniquedelayssorted(df):
 
 if __name__ == "__main__":
     fn_edgelist = "/Users/TOSS/Documents/Projects/ReportingDelay/data/Delay2006.csv"
+    """
+    Networks are created from a edgelist. Minimal edgelists contain SOURCE and Target nodes.
+    """
     #
     # read the edgelist data and create pandas dataframe
     # pandas data frame will contain variables:
